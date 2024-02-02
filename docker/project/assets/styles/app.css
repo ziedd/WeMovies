@@ -1,0 +1,36 @@
+/* Add your styles here */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.content {
+    float: left;
+    width: 80%;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.movie-link {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+.movie-link:hover {
+    text-decoration: underline;
+}
