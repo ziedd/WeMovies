@@ -1,4 +1,4 @@
-# Project Name
+# WeMovies
 
 This is a web application built with PHP 8.2 and Symfony 6.4, using Composer dependency management.
 ## Features
@@ -24,10 +24,9 @@ The project has the following structure:
 - `composer.json`: Specifies the PHP dependencies of the application.
 - `package.json`: Specifies the JavaScript dependencies of the application.
 
-Please note that this is a general structure and might not exactly match your project. Adjust it according to your project's actual structure.
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes
 
 ### Prerequisites
 
@@ -38,7 +37,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository
 ```bash
-git clone https://github.com/ziedd/MyMovies.git
+git@github.com:ziedd/WeMovies.git
 ```
 
 ### Configuration
