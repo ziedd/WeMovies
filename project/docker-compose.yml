@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  php:
+    build:
+      context: .
+      dockerfile: docker/php/Dockerfile
+    volumes:
+      - .:/var/www/html
+    ports:
+      - "9000:9000"
+    command: ["php-fpm", "-F"]
+
+  nginx:
+    build:
+        context: docker/nginx
+        dockerfile: Dockerfile
+    ports:
+        - "8190:80"
+
+
+

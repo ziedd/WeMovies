@@ -1,5 +1,0 @@
-parameters:
-  api_token: '%env(API_TOKEN)%'
-  api_base_uri: '%env(API_BASE_URI)%'
-  api_default_language: '%env(API_DEFAULT_LANGUAGE)%'
-  api_default_page: '%env(API_DEFAULT_PAGE)%'
