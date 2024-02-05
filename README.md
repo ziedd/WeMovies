@@ -68,4 +68,4 @@ make phpstan
 ### The Makefile for this project can be found [here](./Makefile).
 
 
-#### Bonus: Pest is used as framework like phpunit to build some usescases  can be found [here](./src/test/Pest).
+#### Bonus: Pest is used as framework like phpunit to build some usescases  can be found [here](./test/Pest).
