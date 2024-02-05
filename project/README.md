@@ -48,7 +48,7 @@ API_KEY=your_api_key
 
 ### Installation of the project dependencies
 ```bash
-cd WeMoviesdocker/project
+cd WeMovies/project
 docker-compose up -d
 ```
 ## Quality Checks and Linting
@@ -66,3 +66,6 @@ make cs_fix
 make phpstan
 ```
 ### The Makefile for this project can be found [here](./Makefile).
+
+
+#### Bonus: Pest is used as framework like phpunit to build some usescases  can be found [here](./test/Pest).
