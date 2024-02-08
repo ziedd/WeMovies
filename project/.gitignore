@@ -3,3 +3,7 @@
 /phpunit.xml
 .phpunit.result.cache
 ###< phpunit/phpunit ###
+# Ignore cache files
+var/cache
+var/log
+*.log
